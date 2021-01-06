@@ -1,0 +1,35 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.half-width {
+    width: 40%;
+    float: left;
+    
+    }
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: #FF8367;
+    line-height: 90px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.color {
+    color: #363958;
+}
+.half-width p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300px;
+    padding-left: 150px;
+    border-color: black;
+    box-sizing: border-box;
+   
+}
+img {
+    width: 50%;
+    
+}
