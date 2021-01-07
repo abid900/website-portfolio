@@ -9,12 +9,12 @@ body {
     float: left;
     
     }
-h1 {
+#unique {
     font-family: 'Bebas Neue', cursive;
     font-size: 100px;
     color: #FF8367;
     line-height: 90px;
-    padding-left: 150px;
+    padding-left: 280px;
     padding-top: 250px;
     font-weight: 700px;
 }
@@ -25,20 +25,21 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300px;
-    padding-left: 150px;
+    padding-left: 280px;
     padding-bottom: 15px;
     }
 img {
     width: 90%;
     padding-left: 250px;
+    
     }
-a {
+.half-width a {
     
     text-decoration: none;
     background-color: chocolate;
     border: 10px 20px;
     padding: 15px 40px;
-    margin-left: 150px;
+    margin-left: 280px;
     border-radius: 5px;
     font-family: 'Bebas Neue', cursive;
     color: white;
@@ -49,7 +50,53 @@ a {
     float: left;
     padding-left: 350px;
 }
+
+}
+.width p  {
+    padding-left: 150px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 70px;
+    
+}
 .second {
     width: 40%;
     float: left;
+}
+.second img {
+    width: 100%;
+    padding-left: 200px;
+    margin-top: 1px;
+    
+}
+.width h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    color: #FF8367;
+    font-weight: 700px;
+    padding-top: 280px;
+    padding-left: 30px;
+}
+.width a {
+    text-decoration: none;
+    background-color: chocolate;
+    border: 10px 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    
+    margin-left: 30px;
+}
+p {
+    color: #3E3E3E;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+h2 {
+    text-align: right;
+    word-spacing: 35px;
+    padding-right: 250px;
+    color: #3C3C3C;
+    font-size: 20px;
+    font-family: roboto;
 }
