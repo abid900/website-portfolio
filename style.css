@@ -44,3 +44,12 @@ a {
     color: white;
     
 }    
+.width {
+    width: 40%;
+    float: left;
+    padding-left: 350px;
+}
+.second {
+    width: 40%;
+    float: left;
+}
