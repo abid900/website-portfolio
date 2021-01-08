@@ -36,7 +36,7 @@ img {
 .half-width a {
     
     text-decoration: none;
-    background-color: chocolate;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     border: 10px 20px;
     padding: 15px 40px;
     margin-left: 280px;
@@ -78,7 +78,7 @@ img {
 }
 .width a {
     text-decoration: none;
-    background-color: chocolate;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     border: 10px 20px;
     padding: 15px 40px;
     border-radius: 5px;
@@ -103,8 +103,8 @@ h2 {
 
 
 
-.before{
-    border: 5px solid red;
+.before {
+   
     height: 1000px;
 
 }
@@ -114,7 +114,7 @@ h2 {
     
 }
 .section-header{
-    font-size: 28px;
+    font-size: 48px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
