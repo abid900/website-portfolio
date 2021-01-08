@@ -101,13 +101,59 @@ h2 {
     font-family: roboto;
 }
 
-.new {
-    margin: 0px;
-    padding: 0px;
-    text-align: left;
-}
+
+
 .before{
     border: 5px solid red;
     height: 1000px;
 }
+.card-section{
+    background-color: #fbfbfb;
+    
+}
+.section-header{
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-header h1 span{
+    color: red;
+}
+.container{
+	/* width: 100%; */
+	margin: 80px auto 0px;
+    align-items: center;
+    
+}
+.parent {
+ 
+    text-align: center;
+     
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: 1fr;
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
+     }
+.card{
+   width: 350;
+    height: auto;
+    background-color: #fff;
+    margin: 0px 25px 25px 0px;
+    padding: 20px 15px;
+    border-radius: 15px 15px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.card-heading{
+    font-weight: 700;
+    text-align: left;
+    font-size: 24px;
+}
+.card-des{
+    text-align: left !important;
+    color: #9c9c9c;
+}
+ .parent img{
+        width: 370px;
+        border-radius: 15px 15px;
 
