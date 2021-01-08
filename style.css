@@ -106,9 +106,11 @@ h2 {
 .before{
     border: 5px solid red;
     height: 1000px;
+
 }
 .card-section{
     background-color: #fbfbfb;
+    padding-bottom: 90px;
     
 }
 .section-header{
@@ -148,7 +150,7 @@ h2 {
     
 }
 .card img {
-    padding-left: 0px;
+   
 }
 .card-heading{
     font-weight: 700;
@@ -156,10 +158,52 @@ h2 {
     font-size: 24px;
 }
 .card-des{
-    text-align: left !important;
+    text-align: left ;
     color: #9c9c9c;
 }
  .parent img{
         width: 370px;
         border-radius: 15px 15px;
+        padding-left: 0px;
+ }
 
+ .inquiry{
+    background-color: #fff;
+    padding: 60px 0px;
+    
+}
+.inquiry-main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  
+}
+
+   .inquiry-main img{
+       width: 60%;
+       padding-left: 20px;
+       margin-top: 80px;
+    
+   }
+   .inquiry-main h1{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 70px;
+    font-weight: 700px;
+    font-family: 'Bebas Neue', cursive;
+   }
+   .btn{
+       position: absolute;
+       background-image: linear-gradient(45deg, lightsalmon, tomato);
+       padding: 20px 35px;
+       color: white;
+       text-decoration: none;
+       border-radius: 10px;
+       top: 55%;
+       right: 25%;
+       font-family: 'Roboto', sans-serif;
+   }
