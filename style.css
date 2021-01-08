@@ -207,3 +207,39 @@ h2 {
        right: 25%;
        font-family: 'Roboto', sans-serif;
    }
+
+
+
+   .;
+.social-section{
+padding-bottom: 60px;
+}
+.social-section .social-section-title{
+    margin-top: 20px;
+ text-transform: uppercase;
+ color: grey;
+ font-size: 20px;
+ text-align: center;
+}
+.social-section .social-section-email{
+
+ text-transform: lowercase;
+
+ font-size: 36px;
+ text-align: center;
+}
+.social-icon{
+    width: 200px;
+    margin: 0px auto 0px;
+   
+}
+.social-icon-parent img{
+    width: 40px;
+}
+.social-icon-parent {
+       
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    margin-left: -230px;
+    
+}
