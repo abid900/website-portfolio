@@ -1,4 +1,4 @@
-body {
+.before {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
@@ -100,3 +100,14 @@ h2 {
     font-size: 20px;
     font-family: roboto;
 }
+
+.new {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.before{
+    border: 5px solid red;
+    height: 1000px;
+}
+
